@@ -133,7 +133,7 @@ $pedidosUsuario = $pedidoClass->buscarPedidoPorUsuarioId($usuario_id);
     <div class="link">
         <a href="meu_carrinho.php">Meu Carrinho</a>
         <a href="meus_pedidos.php">Pedidos</a>
-        <a href="logout.php">Sair</a>
+        <a href="sair.php">Sair</a>
     </div>
 </div>
 </body>

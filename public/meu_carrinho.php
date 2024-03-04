@@ -85,12 +85,19 @@ if ($nomeUsuario !== null) {
             top: 20px;
             right: 20px;
             color: #fff;
+            display: flex;
+            align-items: center;
+        }
+
+        .top-right p {
+            margin-right: 20px;
+            font-size: 1rem;
         }
 
         .top-right a {
             color: #007bff;
             text-decoration: none;
-            margin-left: 20px;
+            margin-right: 20px;
             font-size: 1rem;
             transition: color 0.3s;
         }
@@ -187,7 +194,8 @@ if ($nomeUsuario !== null) {
     <?php endif; ?>
     <a href="meu_carrinho.php">Meu Carrinho</a>
     <a href="meus_pedidos.php">Meus Pedidos</a>
-    <a href="logout.php">Sair</a>
+    <a href="adicionar_ao_carrinho.php">Adicionar Pedido</a> <!-- Novo link para adicionar pedido -->
+    <a href="sair.php">Sair</a>
 </div>
 <div class="container">
     <form action="pagamento.php" method="post">
